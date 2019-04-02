@@ -1,0 +1,3 @@
+Scrapy
+pdfkit # And wkhtmltopdfs
+pypiwin32 # For windows
