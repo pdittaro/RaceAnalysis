@@ -8,7 +8,11 @@
 import scrapy
 
 
-class RacesItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class RaceResult(scrapy.Item):
+
+    race = scrapy.Field()
+    series = scrapy.Field()
+    category = scrapy.Field()
+    year = scrapy.Field()
+    url = scrapy.Field()
+    filename = scrapy.Field()
