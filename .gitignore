@@ -101,4 +101,6 @@ ENV/
 
 out.pdf
 
-output
+output/
+
+.vscode
